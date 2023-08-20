@@ -5,11 +5,11 @@
 // will compile your contracts, add the Hardhat Runtime Environment's members to the
 // global scope, and execute the script.
 const hre = require("hardhat");
-const tokenContractJSON = require("../artifacts/contracts/MetaToken.sol/Project1.json");
+const tokenContractJSON = require("../artifacts/contracts/MetaToken.sol/Akash.json");
 
-const tokenAddress = "0x0A450a84b1eCC3a21b6E9f9B177E942252c4DC7D"; 
+const tokenAddress = "0x73900Dd062bf28586719b18eB81B6849D83fcd9F"; 
 const tokenABI = tokenContractJSON.abi;
-const walletAddress = "0x56A75D486a273C891c223Cb7BD305651549B5DA9"; 
+const walletAddress = "0xD13b963f81c572C30Bc1bA44Cb569c9665a4CbCF"; 
 
 async function main() {
 
